@@ -1,0 +1,41 @@
+- ukladani her, databaze her (automaticke ukladani), pri nacteni programu se otevre posledni hra
+- nacitani z databaze, ze souboru
+- dalsi tah, vratit tah, replay hry
+- novy typ hry - computer vs. computer?
+- okenko se zobrazenim aktualne pocitaneho tahu v GUI
+- zobrazeni aktualni hry v GUI
+- zvyrazneni posledniho tahu v GUI
+- zvyrazneni vyhry v GUI
+
+
+
+
+
+
+
+
+
+
+ALGORITMUS:
+
+1 thread:
+	1. nejdriv quick check a sestavit novy list tahu, vyjmout z toho tahy, ktere prohravaji
+	2. seradit tento novy list
+multithread: rozhodit list
+	3. minimaxem projet tento novy list
+1 thread
+	4. seradit ho
+	5. vratit nejlepsi z nej
+
+
+- detekce vyhry a ukonceni hry
+
+- implementace minimaxu
+
+- moznost remizy - plna deska
+- multithreading (fork/join?)
+- dotahnout grafiku a gui
+	- zvyrazneni vyherni sekvence
+	
+
+- automaticke ukladani her
